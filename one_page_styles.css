@@ -1,0 +1,36 @@
+/* Center-align all content and add text shadows */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+h1, h2, p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    margin: 20px 0; 
+	max-width: 100%; 
+	height: auto; 
+	width: 300px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+footer {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    background-color: #f1f1f1;
+}
